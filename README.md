@@ -8,7 +8,6 @@ These are all examples for edu porpuses, do not use for as live code!
 Before you start, all examples are on OSX with Node, npm and brew installed.
 
 ### Installing
-
 Install ethereum dependencies
 
 ```
@@ -20,31 +19,38 @@ Install EthereumJS Test RPC globally
 ```
 npm install -g ethereumjs-testrpc
 ```
-## Running a private chain
+
+### Running a private chain
 When starting EthereumJS TestRPC you will get premade accounts with balances, private keys and Mnemonic. Use the Mnemonic to restore the wallets. After that you can import private keys as you please.
 
 ```
 testrpc
 ```
 
-## Connecting wallet to testrpc
+### Connect wallet to testrpc
+So we need a wallet to see the transactions happening.
 
-### Mist wallet
+#### Mist wallet
 Open wallet with rpc command
 
 ```
 /Applications/Ethereum\ Wallet.app/Contents/MacOS/Ethereum\ Wallet --rpc http://localhost:8545
 ```
 
-### Metamask
-Use the Mnemonic to restore and import the private keys at will. Due to some weird bug, I had to switch to the main network and back to test a couple of times to get everything going.
+#### Metamask
+Due to some weird bug, I had to switch to the main network and back to test a couple of times to get everything going.
 ```
 Connect to http://localhost:8545
 ```
 
-----
+### Running examples
+If all went well you should end up with running privatechain and a wallet connected to that network.
 
-That's all folks. Blockchain away :D
+Now dive into the examples dir and continue.
+
+```
+cd nodejs-examples
+```
 
 ----
 ## Some reference

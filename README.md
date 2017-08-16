@@ -20,14 +20,14 @@ Install EthereumJS Test RPC globally
 npm install -g ethereumjs-testrpc
 ```
 
-### Running a private chain
+### Run a private chain
 When starting EthereumJS TestRPC you will get premade accounts with balances, private keys and Mnemonic. Use the Mnemonic to restore the wallets. After that you can import private keys as you please.
 
 ```
 testrpc
 ```
 
-### Connect wallet to testrpc
+### Connect wallet to private chain
 So we need a wallet to see the transactions happening.
 
 #### Mist wallet

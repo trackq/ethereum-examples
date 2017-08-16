@@ -1,0 +1,13 @@
+{
+  "name": "ethereum-examples-nodejs",
+  "version": "1.0.0",
+  "description": "NodeJS Web3 examples on testrpc, just for kicks and to see the gear turning in Ethereum",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "web3": "^1.0.0-beta.18"
+  }
+}

@@ -47,15 +47,17 @@ Connect to http://localhost:8545
 That's all folks. Blockchain away :D
 
 ----
+## Some reference
+Oooo all the glorious nifty tools are making me cry. Some links for the lazy :D
 
-## Tools
+### Wallet
 - https://github.com/ethereum/mist
 - https://metamask.io/
 
-## Dev tools
+### Dev tools
 - https://github.com/ethereumjs/testrpc
 - https://brew.sh/
 
-## Documentation
+### Documentation
 - http://web3js.readthedocs.io/en/1.0/index.html
 - https://github.com/ethereum/wiki/wiki

@@ -1,12 +1,14 @@
 # Howto Ethereum by example
 To educate my ass, about the biggest since the invetion of zeh intertubes. I have created these simple examples to see all the gears moving inside of Ethereum. Very basic stuff, so open yourself a terminal and type away!
 
-## Before you start
+## Getting started
+These are all examples for edu porpuses, do not use for as live code!
+
+### Prerequisites
 Before you start, all examples are on OSX with Node, npm and brew installed.
 
----
-
-## Install ethereum dependencies
+### Installing
+### Install ethereum dependencies
     brew tap ethereum/ethereum
     brew install ethereum
     npm install -g ethereumjs-testrpc

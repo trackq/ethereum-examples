@@ -11,9 +11,6 @@ Before you start, all examples are on OSX with Node, npm and brew installed.
     brew install ethereum
     npm install -g ethereumjs-testrpc
 
-## Install dependencies
-    npm install
-
 ## Running a private chain
 When starting EthereumJS TestRPC you will get premade accounts with balances, private keys and Mnemonic. Use the Mnemonic to restore the wallets. After that you can import private keys as you please.
 
@@ -40,7 +37,6 @@ That's all folks. Blockchain away :D
 ## Dev tools
 - https://github.com/ethereumjs/testrpc
 - https://brew.sh/
-- https://code.visualstudio.com/
 
 ## Documentation
 - http://web3js.readthedocs.io/en/1.0/index.html

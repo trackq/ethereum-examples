@@ -8,30 +8,46 @@ These are all examples for edu porpuses, do not use for as live code!
 Before you start, all examples are on OSX with Node, npm and brew installed.
 
 ### Installing
-### Install ethereum dependencies
-    brew tap ethereum/ethereum
-    brew install ethereum
-    npm install -g ethereumjs-testrpc
 
+Install ethereum dependencies
+
+```
+brew tap ethereum/ethereum
+brew install ethereum
+```
+
+Install EthereumJS Test RPC globally
+```
+npm install -g ethereumjs-testrpc
+```
 ## Running a private chain
 When starting EthereumJS TestRPC you will get premade accounts with balances, private keys and Mnemonic. Use the Mnemonic to restore the wallets. After that you can import private keys as you please.
 
-    testrpc
+```
+testrpc
+```
 
 ## Connecting wallet to testrpc
-### Mist
-    /Applications/Ethereum\ Wallet.app/Contents/MacOS/Ethereum\ Wallet --rpc http://localhost:8545
+
+### Mist wallet
+Open wallet with rpc command
+
+```
+/Applications/Ethereum\ Wallet.app/Contents/MacOS/Ethereum\ Wallet --rpc http://localhost:8545
+```
 
 ### Metamask
 Use the Mnemonic to restore and import the private keys at will. Due to some weird bug, I had to switch to the main network and back to test a couple of times to get everything going.
-    
-    Connect to http://localhost:8545
+```
+Connect to http://localhost:8545
+```
 
 ----
 
 That's all folks. Blockchain away :D
 
 ----
+
 ## Tools
 - https://github.com/ethereum/mist
 - https://metamask.io/
